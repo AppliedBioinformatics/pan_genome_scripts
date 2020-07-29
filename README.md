@@ -13,3 +13,12 @@ Usage: `python splitFiles.py filename_unmapped_merged_sortedName.fastq`
 This script removes contaminants from the blast output based on the plant genus list. The All_plant_genus_list_updated.txt file can be replaced with any list of genuses
 
 Usage: `python filter_blast.py [merged blast output file] All_plant_genus_list_updated.txt > genome.best.hits.contamination.blast`
+
+
+# contamination_removal.py
+
+This script is used to filter the contamination out of masurca assembly based on the blast names given by BLAST
+
+This requires the output file of the filter_blast.py script to be filtered into the uncontaminated_chickpea_contig_names.txt file
+
+Usage: `python contamination_removal.py [masurca assembly] uncontaminated_chickpea_contig_names.txt uncontaminated.scf.fasta`
