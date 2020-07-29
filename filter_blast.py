@@ -1,6 +1,6 @@
 #This script removes contaminants from the blast output based on the plant genus list. 
 #The All_plant_genus_list_updated.txt file can be replaced with any list of genuses
-###usage: python filter_blast.py [merged blast output] All_plant_genus_list_updated.txt > genome.best.hits.contaminantion.blast
+###usage: python filter_blast.py [merged blast output] All_plant_genus_list_updated.txt > genome.best.hits.contamination.blast
 
 import sys
 f1=open(sys.argv[1],'r') 
