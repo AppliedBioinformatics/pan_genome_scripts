@@ -1,6 +1,6 @@
 #used to filter contamination out of masurca assembly based on the blast names given by BLAST
 #This requires the output file of the filter_blast.py script
-##usage: python split.py genome.scf.fasta uncontaminated_chickpea_contig_names uncontaminated_M1_11_15_16A_16B_17A.scf.fasta
+##usage: python contamination_removal.py genome.scf.fasta uncontaminated_chickpea_contig_names.txt uncontaminated.scf.fasta
 
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
