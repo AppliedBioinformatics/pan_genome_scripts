@@ -22,3 +22,7 @@ This script is used to filter the contamination out of masurca assembly based on
 This requires the output file of the filter_blast.py script to be filtered into the uncontaminated_chickpea_contig_names.txt file
 
 Usage: `python contamination_removal.py [masurca assembly] uncontaminated_chickpea_contig_names.txt uncontaminated.scf.fasta`
+
+# All_plant_genus_list.txt
+
+A list of all known plant genera
