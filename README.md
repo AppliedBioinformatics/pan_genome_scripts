@@ -10,9 +10,9 @@ This script is used to split the unmapped fastq files into R1, R2 and unpaired r
 Usage: `python splitFiles.py filename_unmapped_merged_sortedName.fastq`
 
 # filter_blast.py
-This script removes contaminants from the blast output based on the plant genus list. The All_plant_genus_list_updated.txt file can be replaced with any list of genuses
+This script removes contaminants from the blast output based on the plant genus list. The All_plant_genus_list.txt file can be replaced with any list of genuses
 
-Usage: `python filter_blast.py [merged blast output file] All_plant_genus_list_updated.txt > genome.best.hits.contamination.blast`
+Usage: `python filter_blast.py [merged blast output file] All_plant_genus_list.txt > genome.best.hits.contamination.blast`
 
 
 # contamination_removal.py
